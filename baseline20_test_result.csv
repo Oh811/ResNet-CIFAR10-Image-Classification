@@ -1,0 +1,2 @@
+model,test_loss,test_accuracy,test_samples
+BaselineCNN,0.8300950475692749,71.26,10000

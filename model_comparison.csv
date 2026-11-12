@@ -1,0 +1,3 @@
+Model,Epochs,Test Loss,Test Accuracy (%),Macro Precision (%),Macro Recall (%),Macro F1 (%)
+BaselineCNN,20,0.8301,71.26,71.19,71.26,70.95
+ResNet-20,20,0.4481,84.93,84.95,84.93,84.91
