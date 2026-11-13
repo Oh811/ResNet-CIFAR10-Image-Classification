@@ -69,19 +69,19 @@ ResNet-20 主要由卷积层、Batch Normalization、残差模块、全局平均
 
 ### 7.1 模型准确率对比
 
-![Model Accuracy Comparison](results/model_comparison_accuracy.png)
+![Model Accuracy Comparison](model_comparison_accuracy.png)
 
 ### 7.2 BaselineCNN 混淆矩阵
 
-![BaselineCNN Confusion Matrix](results/baseline20_confusion_matrix.png)
+![BaselineCNN Confusion Matrix](baseline20_confusion_matrix.png)
 
 ### 7.3 ResNet-20 混淆矩阵
 
-![ResNet-20 Confusion Matrix](results/resnet20_confusion_matrix.png)
+![ResNet-20 Confusion Matrix](resnet20_confusion_matrix.png)
 
 ### 7.4 训练过程
 
-训练过程中的 Loss 和 Accuracy 曲线保存在 `results` 目录中。
+训练过程中的 Loss 和 Accuracy 曲线保存在仓库根目录中。
 
 ## 8. 项目文件说明
 
@@ -89,7 +89,7 @@ ResNet-20 主要由卷积层、Batch Normalization、残差模块、全局平均
 - `baseline_best.pth`：BaselineCNN（10 Epoch）最佳模型权重。
 - `baseline20_best.pth`：BaselineCNN（20 Epoch）最佳模型权重。
 - `resnet20_best.pth`：ResNet-20（20 Epoch）最佳模型权重。
-- `results/`：训练日志、测试结果、分类报告、混淆矩阵和实验图表。
+- 实验结果文件：包括训练日志、测试结果、分类报告、混淆矩阵和实验图表，均保存在仓库根目录中。
 
 ## 9. 运行方法
 
@@ -99,7 +99,7 @@ ResNet-20 主要由卷积层、Batch Normalization、残差模块、全局平均
 4. 下载并加载 CIFAR-10 数据集。
 5. 完成模型训练、测试和结果分析。
 
-模型权重文件保存在 `checkpoints` 目录中，实验结果保存在 `results` 目录中。
+模型权重文件和实验结果文件均保存在 GitHub 仓库根目录中。
 
 ## 10. 项目仓库
 
